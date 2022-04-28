@@ -1,0 +1,24 @@
+#include <stdio.h> //header file 
+#include <stdlib.h>
+
+int main()
+{
+    int number, *arr, i; // variable decleration 
+    scanf("%d", &number);// inputing the variables
+
+    arr = (int*) malloc(num * sizeof(int));
+
+    for(i = 0; i < number; i++) {
+        scanf("%d", arr + i);
+    }
+
+
+    /* Write the logic to reverse the array. */
+
+    for(i = 0; i < number; i++)
+	{
+	 printf("%d ", *(arr + i));
+	}
+       
+    return 0;
+}
